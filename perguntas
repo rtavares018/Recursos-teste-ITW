@@ -1,0 +1,34 @@
+#Questões TP1
+
+## 1. Qual a estrutrura base dum documento HTML?
+### Um documento HTML tem como estrutura base o doctype, o head e o body. O <doctype> é a definição do documento, ou seja, indica ao "leitor" do código que se trata de um documento HTML. O <head> define o cabeçalho; possui informação sobre o documento que vai ser representado. O <body> define o conteúdo principal; parte que exibida no navegador; neste marcador pode-se definir atibutos comuns a toda a página. 
+
+## 2. Caracteriza um marcador HTML.
+### Um marcador HTML está sempre entre "<>"; eqtiquetas/marcadores são responsáveis pela formatação de linguagem.
+
+## 3. Quais são os atributos a ter em conta quando se quer saber o tamanho total dum elemento HTML?
+### Conteúdo, padding, border e margin.
+
+## 4. Onde se deve colocar os *scripts* num documento HTML e porquê?
+### No Head ou no Body: no head, se se tratar de um script pequeno e #se for suposto aparecer logo no início (antes da própria página estar visível) e no (fim do) body se for um script extenso.
+
+## 5. Onde se podem definir estilos e qual a sua ordem de precedência?
+### Num ficheiro CSS à parte, inserindo o mesmo no documento HTML; no head ou "in line".
+### - CSS à parte: <link href="https:..." rel="stylesheet"> 
+### - No head: <style> .nome { color: black} </style>
+### - In line: <h1 style= "color = black"> ... </h1>
+
+## 6. O que significa 'responsividade' no contexto do desenvolvimento web?
+### A responsividade web é a adaptação do tamanho e da disposição da página consoante o dispositivo utilizado.
+
+## 7. Enumera 3 vantagens do Boostrap.
+### O Bootstrap, sendo uma framework de CSS, providencia vantagens como: não é necessário  definir styles; reduz a escrita de JavaScript (é consivo) e tem responsividade embutida.
+
+## 8. Quais são as 3 linguagens que um Web Developer deve saber usar e para que serve cada uma?
+### Linguagens como HTML, CSS e JavaScript são essenciais para um Web Developer. HTML define o conteúdo apresentado na página(o que lá está), o CSS é responsável por determinar como é o display da página (como vejo) e o JavaScript define as ações que podem ser feitas na página (o que faço). 
+
+## 9. Caracteriza o Javascript quanto à tipagem. Dá uma vantagem e uma desvantagem dessa forma de tipagem.
+### O Javascript é fracamente/semi tipada. A tipagem do JavaScript torna as operações mais fléxiveis mas torna-as mais sensíveis a erros.
+
+## 10. O que significa a sigla DOM e o que é que nos permite fazer?
+### A sigla DOM significa "Documents Object Model" e permite-nos manipular o documento.
